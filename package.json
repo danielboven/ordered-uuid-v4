@@ -7,6 +7,9 @@
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browser": {
+    "./dist/rng.js": "./dist/rng-browser.js"
+  },
   "author": "Daniel Boven <hoi@daanboven.com>",
   "license": "ISC",
   "devDependencies": {
