@@ -1,4 +1,4 @@
-import validate from './validate.js'
+import validate from './validate.js';
 
 function convert(uuid) {
   if (!validate(uuid)) {
@@ -10,11 +10,9 @@ function convert(uuid) {
 
   const hexRandom = uuid.slice(14, 18);
   const numberRandom = parseInt(hexRandom, 16);
-  const numberRandomLength = numberRandom.toString().length;
-  const numberRandomDecimal = numberRandom / Math.pow(10, numberRandomLength);
 
-  // Return the number + extra decimal part
-  return time + numberRandomDecimal;
+  // Return the number & random part
+  return BigInt(time.toString() + numberRandom.toString());
 }
 
 export default convert;

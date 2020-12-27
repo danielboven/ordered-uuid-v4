@@ -10,8 +10,16 @@
   "browser": {
     "./dist/rng.js": "./dist/rng-browser.js"
   },
-  "author": "Daniel Boven <hoi@daanboven.com>",
-  "license": "ISC",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielboven/ordered-uuid-v4.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",

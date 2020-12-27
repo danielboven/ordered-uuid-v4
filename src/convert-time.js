@@ -1,4 +1,4 @@
-import validate from './validate.js'
+import validate from './validate.js';
 
 function decode(uuid, type) {
   if (!validate(uuid)) {
