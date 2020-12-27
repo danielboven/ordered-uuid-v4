@@ -1,4 +1,4 @@
-# Ordered UUID (v4) - COMB
+# Ordered UUID v4 - COMB (combined time-GUID)
 
 `ordered-uuid-v4` is a JavaScript package that can generate a COMB (combined time-GUID), basically an ordered UUID. The COMB/ordered UUID contains:
 - 48-bit timestamp: the amount of centimilliseconds (10<sup>-5</sup>) since 00:00:00 UTC on 1 January 1970
