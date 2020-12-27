@@ -50,8 +50,8 @@ console.log(comb);
 |  |  |
 | --- | --- |
 | [`comb.generate()`](#combgenerateoptions) | Generate a timestamp-first COMB |
-| [`comb.convertTime()`](#combconvertTime) | Convert COMB string to a timestamp (formatted as UNIX, Date object, etc.) |
-| [`comb.convertNumber()`](#combconvertNumberuuid) | Convert 48-bit timestamp & 15-bit random part of COMB string to a number |
+| [`comb.convertTime()`](#combconverttimeuuid-type) | Convert COMB string to a timestamp (formatted as UNIX, Date object, etc.) |
+| [`comb.convertNumber()`](#combconvertnumberuuid) | Convert 48-bit timestamp & 15-bit random part of COMB string to a number |
 | [`comb.validate()`](#combvalidatestr) | Test a string to see if it is a valid UUID v4; does not distinguish between COMB and UUID v4! |
 | [`comb.timestamp()`](#combtimestamp) | Retrieve an integer consisting of the UNIX time & amount of centimilliseconds |
 | [`comb.stringify()`](#combstringifytimestamp-arr) | Convert timestamp hex & array of bytes to UUID string  |
