@@ -23,6 +23,7 @@
     "url": "https://github.com/danielboven/ordered-uuid-v4/issues"
   },
   "homepage": "https://github.com/danielboven/ordered-uuid-v4#readme",
+  "author": "Daniel Boven",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
