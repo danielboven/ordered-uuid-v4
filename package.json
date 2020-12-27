@@ -17,8 +17,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielboven/ordered-uuid-v4.git"
+    "url": "git+https://github.com/danielboven/ordered-uuid-v4.git"
   },
+  "bugs": {
+    "url": "https://github.com/danielboven/ordered-uuid-v4/issues"
+  },
+  "homepage": "https://github.com/danielboven/ordered-uuid-v4#readme",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
