@@ -1,6 +1,6 @@
 {
   "name": "ordered-uuid-v4",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "files": [
     "LICENSE.md",
     "README.md",
+    "CHANGELOG.md",
     "dist"
   ],
   "repository": {

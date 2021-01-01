@@ -6,7 +6,7 @@ function comb(options) {
   options = options || {};
 
   const rnds = options.random || (options.rng || rng)();
-  const hexTimestamp = (options.timestamp || timestamp)().toString(16);
+  const hexTimestamp = (options.timestamp || (options.timestampGenerator || timestamp)()).toString(16);
 
   // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
   // Also note: the indices below are the result of subtracting the indices of standard uuid v4 by 6,

@@ -1,4 +1,4 @@
-import { convertTime as convertCombToTime } from '../dist';
+import { convertTime as convertCombToTime } from 'ordered-uuid-v4';
 
 const items = [
   {

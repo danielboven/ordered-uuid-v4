@@ -67,7 +67,8 @@ Create a timestamp-first COMB
 | [`options`] | `Object` with one or more of the following properties: |
 | [`options.random`] | `Array` of 10 random bytes (0-255) |
 | [`options.rng`] | Alternative to `options.random`, a `Function` that returns an `Array` of 10 random bytes (0-255) |
-| [`options.timestamp`] | A `Function` that returns a `Number` of a 48-bit timestamp |
+| [`options.timestamp`] | 48-bit timestamp as a `Number` |
+| [`options.timestampGenerator`] | A `Function` that returns a `Number` of a 48-bit timestamp |
 | _returns_ | COMB `String` |
 
 Example:

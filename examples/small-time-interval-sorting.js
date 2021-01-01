@@ -1,4 +1,4 @@
-import { generate as generateComb, convertNumber as convertCombToNumber } from '../dist';
+import { generate as generateComb, convertNumber as convertCombToNumber } from 'ordered-uuid-v4';
 
 let items = [
   { letter: 'A' },

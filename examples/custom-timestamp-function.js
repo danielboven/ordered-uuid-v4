@@ -1,4 +1,4 @@
-import { generate as generateComb, convertTime as convertCombToTime } from '../dist';
+import { generate as generateComb, convertTime as convertCombToTime } from 'ordered-uuid-v4';
 
 let albums = [
   {
@@ -22,9 +22,7 @@ albums = albums
   .map(function (album) {
     // generateComb function accepts a custom function at options.timestamp
     album.id = generateComb({
-      timestamp: function () {
-        return album.release
-      }
+      timestamp: album.release
     });
     delete album.release;
     return album;
