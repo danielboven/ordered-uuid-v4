@@ -1,6 +1,6 @@
 {
-  "name": "ordered-uuid-v4",
-  "version": "0.2.0",
+  "name": "ordered-uuid-v4-fixed",
+  "version": "0.2.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -27,11 +27,11 @@
   "author": "Daniel Boven",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
+    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11"
   },
   "dependencies": {
-    "performance-now": "^2.1.0"
+    "microtime": "^3.1.0"
   }
 }
