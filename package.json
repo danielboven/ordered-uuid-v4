@@ -1,6 +1,6 @@
 {
-  "name": "ordered-uuid-v4",
-  "version": "0.2.0",
+  "name": "ordered-uuid-v4-fixed",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
